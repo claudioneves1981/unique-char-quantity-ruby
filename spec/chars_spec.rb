@@ -1,26 +1,26 @@
 require 'spec_helper'
 
 describe Chars do
-  it 'Recebe uma sequência e retorna a soma dos caracteres únicos' do
+  it '1: Recebe uma sequência e retorna a soma dos caracteres únicos' do
     sequence = 'abc abc ab ac aaaa b'
 
     expect(Chars.new.unique_quantity(sequence)).to eq(12)
   end
 
-  it 'Recebe uma sequência e retorna a soma dos caracteres únicos' do
+  it '2: Recebe uma sequência e retorna a soma dos caracteres únicos' do
     sequence = 'abcx abcy abcx acx asdc b'
 
     expect(Chars.new.unique_quantity(sequence)).to eq(20)
   end
 
-  it 'Recebe uma sequência e retorna a soma dos caracteres únicos' do
+  it '3: Recebe uma sequência e retorna a soma dos caracteres únicos' do
     sequence = 'qzbw qez xgedfibnyuhqsrazlwtpocj fxgpoqijdzybletckwaunsr'\
                'pwnqsizrfcbyljexgouatd ljtperqsodghnufiycxwabzw'
 
     expect(Chars.new.unique_quantity(sequence)).to eq(76)
   end
 
-  it 'Recebe uma sequência e retorna a soma dos caracteres únicos' do
+  it '4: Recebe uma sequência e retorna a soma dos caracteres únicos' do
     sequence = 'vjdmhsorqw whdjoqvrms rhsjqdmov omdsqjrzhv rcxsgnluhtqey '\
                'ldejuqpykrtc rylcqxt wlgtzyrcf yrltc rclpyt frke kfe '\
                'nchvxtqarsejld rkhntaexcbqljod qhdepzrxljtifcan '\

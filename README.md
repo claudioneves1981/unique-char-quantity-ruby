@@ -31,10 +31,11 @@ abc  → 3
 abc  → 3
 ab   → 2
 ac   → 2
+aabb → 2
 aaaa → 1
 b    → 1 +
     ------
-      12
+      14
 ```
 
-dando um total de 12 caracteres únicos nessa sequência.
+dando um total de 14 caracteres únicos nessa sequência.
